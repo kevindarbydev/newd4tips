@@ -1,8 +1,8 @@
 import * as React from "react";
 import styled from "styled-components";
 
-import { SEO } from "gatsby-theme-advanced";
-
+import { Helmet } from "react-helmet";
+import { AdvancedLogo } from "../icons";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import ThemeProvider, { constants } from "../theme";
@@ -33,7 +33,16 @@ type MainLayoutProps = {
 
 const MainLayout = ({ children }: MainLayoutProps): JSX.Element => (
   <ThemeProvider>
-    <SEO />
+      <Helmet  
+      title="Diablo 4 Tips & Tricks"
+      link={[
+        {"rel": "icon",
+        "type": "image/png",
+       "href": "./D_LOGO.png"}
+      ]}      
+          />
+         
+         
     <LayoutGrid>
       <LayoutWidthContainer>
         <Navigation />

@@ -33,7 +33,7 @@ const Colors = css`
     --color-crimson: #990000;
     --color-deepyellow: #FFCC00;
 
-    --color-text: #ffffff;
+    --color-text: #000000;
     --color-inverted-text: #000000;
     --color-background: #333333;
     --color-inverted-background: #000000;

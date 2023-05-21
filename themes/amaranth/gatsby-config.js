@@ -1,8 +1,10 @@
-module.exports = (userConfig) => ({
+module.exports = {  
   plugins: [
-    {
+        {
       resolve: "gatsby-theme-advanced",
-      options: userConfig,
+      options: {
+       
+      },
     },
   ],
-});
+};
