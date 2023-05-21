@@ -3,7 +3,7 @@ import React from "react";
 import { useConfig } from "gatsby-theme-advanced";
 
 import UserLinks from "../UserLinks";
-import { Caption, H3 } from "../../theme";
+import { Caption } from "../../theme";
 import { AnimatedLink } from "../Links";
 
 import * as S from "./styles";
@@ -14,7 +14,7 @@ const Footer = (): JSX.Element => {
   return (
     <S.Wrapper>
       <S.LinkGrid>
-        <H3>LINKS</H3>
+        {/* <H3>LINKS</H3> */}
         <UserLinks includeRss />
       </S.LinkGrid>
       <S.Info>

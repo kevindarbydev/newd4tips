@@ -9,7 +9,7 @@ const ReadButton = styled(GatsbyLink)`
   align-self: flex-end;
 
   text-decoration: none;
-  color: var(--color-primary);
+  color: var(--color-crimson);
 
   ${styles.ButtonLabel}
 

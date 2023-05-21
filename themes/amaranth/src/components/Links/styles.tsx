@@ -7,7 +7,7 @@ type LinkStyleProps = {
 
 const TransparentCSS = css`
   text-decoration: none;
-  color: inherit;
+  color: var(--color-crimson);
 
   width: 100%;
 `;

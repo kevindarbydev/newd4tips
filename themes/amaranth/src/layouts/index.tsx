@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import ThemeProvider, { constants } from "../theme";
 
+
 import LayoutWidthContainer from "../components/shared/LayoutWidthContainer";
 
 const LayoutGrid = styled.div`
@@ -19,6 +20,7 @@ const LayoutGrid = styled.div`
   grid-template-columns: 100%;
   gap: 80px;
   align-content: space-between;
+  background-color: var(--color-black-dark);
 
   @media (max-width: ${constants.breakpoints.sm}) {
     gap: 40px;
