@@ -4,5 +4,6 @@ module.exports = (userConfig) => ({
       resolve: "gatsby-theme-advanced",
       options: userConfig,
     },
+    [`gatsby-plugin-netlify`],
   ],
 });
