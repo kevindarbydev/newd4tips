@@ -92,6 +92,7 @@ const DesktopH1 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-grey-700)
   font-size: 47px;
   line-height: 56px;
 `;
@@ -100,6 +101,7 @@ const DesktopH2 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+   color: var(--color-infernal-orange)
   font-size: 39px;
   line-height: 48px;
 `;
@@ -109,6 +111,7 @@ const DesktopH3 = css`
   font-weight: normal;
   font-size: 33px;
   line-height: 40px;
+   color: var(--color-infernal-orange)
   letter-spacing: 0.15px;
 `;
 const DesktopH4 = css`
@@ -117,6 +120,7 @@ const DesktopH4 = css`
   font-weight: normal;
   font-size: 27px;
   line-height: 32px;
+   color: var(--color-infernal-orange)
   letter-spacing: 0.25px;
 `;
 const DesktopH5 = css`
@@ -124,6 +128,7 @@ const DesktopH5 = css`
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
+   color: var(--color-infernal-orange)
   line-height: 32px;
   letter-spacing: 0.35px;
 `;
@@ -132,6 +137,7 @@ const DesktopH6 = css`
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
+   color: var(--color-infernal-orange)
   line-height: 24px;
   letter-spacing: 0.4px;
 `;
@@ -143,6 +149,7 @@ const DesktopBody = css`
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.5px;
+  color:white;
 `;
 
 const DesktopCaption = css`
