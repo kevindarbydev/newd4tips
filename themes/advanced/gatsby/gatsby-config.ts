@@ -149,7 +149,7 @@ const gatsbyConfig = (userConfig: SiteConfig): GatsbyConfig => {
       {
         resolve: "gatsby-plugin-google-gtag",
         options: {
-          trackingIds: [config.website.googleAnalyticsId],
+          trackingIds: "G-EN4T1N92FB",
         },
       },
       {

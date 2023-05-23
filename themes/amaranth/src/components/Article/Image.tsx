@@ -38,11 +38,11 @@ const Figure = styled.figure<FigureProps>`
 `;
 
 const Img = styled(SharedImage)`
-  max-width: 100%;
+  max-width: 80%;
 `;
 
 const StyledGatsbyImage = styled(GatsbyImage)`
-  max-width: 100%;
+  max-width: 80%;
 
   /* Limit cover image heights */
   max-height: 700px;

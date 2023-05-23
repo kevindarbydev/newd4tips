@@ -1,8 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
-
 import { Helmet } from "react-helmet";
-import { AdvancedLogo } from "../icons";
+import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import ThemeProvider, { constants } from "../theme";
@@ -33,23 +32,21 @@ type MainLayoutProps = {
 
 const MainLayout = ({ children }: MainLayoutProps): JSX.Element => (
   <ThemeProvider>
-      <Helmet  
-      title="Diablo 4 Tips & Tricks"
-      link={[
-        {"rel": "icon",
-        "type": "image/png",
-       "href": "./D_LOGO.png"}
-      ]}      
-          />
+        <Helmet        
+          >
+            <title>Diablo 4 Tips & Tricks</title>             
+            </Helmet>
+          
+    
+      <LayoutGrid>
+        <LayoutWidthContainer>
+          <Navigation />
          
-         
-    <LayoutGrid>
-      <LayoutWidthContainer>
-        <Navigation />
-      </LayoutWidthContainer>
+        </LayoutWidthContainer>
+
       {children}
-      <Footer />
-    </LayoutGrid>
+        <Footer />
+      </LayoutGrid>   
   </ThemeProvider>
 );
 
