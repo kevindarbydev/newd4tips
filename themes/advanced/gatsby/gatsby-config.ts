@@ -145,21 +145,14 @@ const gatsbyConfig = (userConfig: SiteConfig): GatsbyConfig => {
         options: {
           shortname: config.website.disqusShortname,
         },
-      },
-      {
-        resolve: "gatsby-plugin-google-gtag",
-        options: {
-          trackingIds: "G-EN4T1N92FB",
-        },
-      },
+      },   
       {
         resolve: "gatsby-plugin-nprogress",
         options: {
           color: config.website.themeColor,
         },
       },
-      "gatsby-plugin-catch-links",
-      "gatsby-plugin-twitter",
+      "gatsby-plugin-catch-links",      
       "gatsby-plugin-sitemap",
       {
         resolve: "gatsby-plugin-manifest",

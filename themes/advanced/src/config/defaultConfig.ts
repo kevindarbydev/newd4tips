@@ -7,7 +7,7 @@ const config: SiteConfig = {
     titleShort: "D4 Guides", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
     name: "Diablo 4 Tips & Tricks", // Website name used for homescreen (PWA) and SEO
     description: "Conquer the battlefield in Diablo 4 with cutting edge tactics, only available at diablo4.tips",
-    googleAnalyticsId: "G-EN4T1N92FB", // Website description used for RSS feeds/meta description tag
+     // Website description used for RSS feeds/meta description tag
     language: "en", // Sets the global HTML lang attribute
     logoUrl: "/logos/logo-1024.png", // Logo used for SEO
     url: "https://example.com", // Domain of your website without the pathPrefix
