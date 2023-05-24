@@ -138,8 +138,7 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "gatsby-theme",
-    "vagr9k"
+    "gatsby-theme"    
   ],
   "scripts": {
     "lint:js": "eslint --ext .ts,.tsx,.js,.jsx .",

@@ -2,18 +2,15 @@
   "private": true,
   "workspaces": [
     "themes/amaranth",
-    "themes/advanced",
-    "examples/amaranth-demo",
-    "examples/advanced-demo"
+    "themes/advanced"
   ],
   "name": "gatsby-starter-advanced",
   "description": "GatsbyJS starter that includes examples for advanced use cases.",
-  "version": "4.17.1",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "version": "1.0.0.1",
+  "author": "Kevin D",
   "keywords": [
     "gatsby",
-    "gatsby-starter",
-    "vagr9k"
+    "gatsby-starter"   
   ],
   "license": "MIT",
   "main": "n/a",
@@ -36,13 +33,7 @@
     "format:all": "npm run format:js && npm run format:styles",
     "test": "jest",
     "type-check": "tsc --noEmit",
-    "type-check:watch": "npm run type-check -- --watch",
-    "cy:open:dev": "CYPRESS_STAGE=dev CYPRESS_BASE_URL=http://localhost:8000 cypress open",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "test:e2e:dev": "CYPRESS_SUPPORT=y CYPRESS_BASE_URL=http://localhost:8000 CYPRESS_STAGE=dev start-server-and-test develop http://localhost:8000 cy:open",
-    "test:e2e": "CYPRESS_SUPPORT=y npm run build && start-server-and-test serve http://localhost:9000 cy:open",
-    "test:e2e:ci": "CYPRESS_SUPPORT=y npm run build && start-server-and-test serve http://localhost:9000 cy:run",
+    "type-check:watch": "npm run type-check -- --watch",    
     "write-good": "write-good **/content/*.{md,mdx}"
   },
   "dependencies": {
@@ -53,11 +44,10 @@
     "gatsby-theme-amaranth": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-query": "^3.39.1",    
+    "react-query": "^3.39.1",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
     "@types/jest": "^28.1.3",
@@ -69,8 +59,6 @@
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "babel-jest": "^28.1.1",
-    "cypress": "^10.2.0",
-    "cypress-axe": "^1.0.0",
     "eslint": "^8.18.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -83,7 +71,6 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-testing-library": "^5.5.1",
-    "gatsby-cypress": "^2.17.0",
     "gh-pages": "^4.0.0",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
@@ -106,6 +93,5 @@
   "resolutions": {
     "caniuse-lite": "1.0.30001359",
     "postcss": "8.3.5"
-  },
-  "packageManager": "yarn@3.2.1"
+  }  
 }
