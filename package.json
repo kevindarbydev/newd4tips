@@ -10,7 +10,7 @@
   "author": "Kevin D",
   "keywords": [
     "gatsby",
-    "gatsby-starter"   
+    "gatsby-starter"
   ],
   "license": "MIT",
   "main": "n/a",
@@ -33,7 +33,7 @@
     "format:all": "npm run format:js && npm run format:styles",
     "test": "jest",
     "type-check": "tsc --noEmit",
-    "type-check:watch": "npm run type-check -- --watch",    
+    "type-check:watch": "npm run type-check -- --watch",
     "write-good": "write-good **/content/*.{md,mdx}"
   },
   "dependencies": {
@@ -93,5 +93,5 @@
   "resolutions": {
     "caniuse-lite": "1.0.30001359",
     "postcss": "8.3.5"
-  }  
+  }
 }
