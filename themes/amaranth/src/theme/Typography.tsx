@@ -157,6 +157,7 @@ const DesktopCaption = css`
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+  var(--color-infernal-orange)
   line-height: 16px;
   letter-spacing: 0.4px;
 `;
@@ -166,6 +167,7 @@ const DesktopOverline = css`
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
+  color: var(--color-infernal-orange)
   line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
