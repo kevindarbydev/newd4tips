@@ -92,7 +92,7 @@ const DesktopH1 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
-  color: var(--color-grey-700)
+  color: var(--color-infernal-orange)
   font-size: 47px;
   line-height: 56px;
 `;
@@ -101,7 +101,7 @@ const DesktopH2 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
-   color: var(--color-infernal-orange)
+  color: var(--color-infernal-orange)
   font-size: 39px;
   line-height: 48px;
 `;
