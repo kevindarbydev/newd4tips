@@ -24,7 +24,7 @@ const Footer = (): JSX.Element => {
             Gatsby Advanced Starter
           </AnimatedLink>
         </Caption>
-        <Caption>{config.website.copyright}</Caption>
+        <Caption style={{fontSize:'11px', opacity:'0.80'}}>Diablo4.Tips is a fanmade site sharing content about Diablo 4, utilizing official game media solely for educational purposes, with no ownership or claim on the intellectual property</Caption>
       </S.Info>
     </S.Wrapper>
   );
