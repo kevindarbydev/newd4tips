@@ -12,12 +12,26 @@ const Navigation = (): JSX.Element => {
         <S.SiteTitle>D4 Tips</S.SiteTitle>
       </S.HomeButton>
       <S.NavGrid>
-        <S.NavButton to="/">Guides</S.NavButton>
-        <S.NavButton noBasePath to="/about">
-          About
+     
+        <S.NavButton noBasePath to="/category/Necromancer">
+          Necromancer
         </S.NavButton>
+         <S.NavButton noBasePath to="/category/Rogue">
+          Rogue
+        </S.NavButton>
+         <S.NavButton noBasePath to="/category/Druid">
+          Druid
+        </S.NavButton>
+         <S.NavButton noBasePath to="/">
+          Sorceror
+        </S.NavButton>
+         <S.NavButton noBasePath to="/category/Barbarian">
+          Barbarian
+        </S.NavButton>
+     
       </S.NavGrid>
     </S.Wrapper>
+    
   );
 };
 

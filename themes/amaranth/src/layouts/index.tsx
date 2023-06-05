@@ -1,7 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
-import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import ThemeProvider, { constants } from "../theme";
