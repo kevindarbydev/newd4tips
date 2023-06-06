@@ -4,14 +4,10 @@
     "themes/amaranth",
     "themes/advanced"
   ],
-  "name": "gatsby-starter-advanced",
-  "description": "GatsbyJS starter that includes examples for advanced use cases.",
+  "name": "D4 Tips",
+  "description": "Fan made site for Diablo 4",
   "version": "1.0.0.1",
-  "author": "Kevin D",
-  "keywords": [
-    "gatsby",
-    "gatsby-starter"
-  ],
+  "author": "Kevin D", 
   "license": "MIT",
   "main": "n/a",
   "scripts": {

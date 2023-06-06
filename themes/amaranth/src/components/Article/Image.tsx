@@ -56,13 +56,13 @@ const StyledGatsbyImage = styled(GatsbyImage)`
 export const FigCaptionCss = css`
   ${styles.Caption}
 
-  color: var(--color-grey-700);
+  color: var(--color-infernal-orange);
 `;
 
 const FigCaption = styled.figcaption`
   ${styles.Caption}
 
-  color: var(--color-grey-700);
+  color: var(--color-infernal-orange);
 `;
 
 type ImageProps = {

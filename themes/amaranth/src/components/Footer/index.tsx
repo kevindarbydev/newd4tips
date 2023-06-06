@@ -1,7 +1,4 @@
 import React from "react";
-
-import { useConfig } from "gatsby-theme-advanced";
-
 import UserLinks from "../UserLinks";
 import { Caption } from "../../theme";
 import { AnimatedLink } from "../Links";
@@ -9,8 +6,6 @@ import { AnimatedLink } from "../Links";
 import * as S from "./styles";
 
 const Footer = (): JSX.Element => {
-  const config = useConfig();
-
   return (
     <S.Wrapper>
       <S.LinkGrid>
@@ -19,9 +14,9 @@ const Footer = (): JSX.Element => {
       </S.LinkGrid>
       <S.Info>
         <Caption>
-          Based on{" "}
-          <AnimatedLink to="https://github.com/Vagr9K/gatsby-advanced-starter">
-            Gatsby Advanced Starter
+          Made with
+          <AnimatedLink to="https://github.com/kevindarbydev">
+            <pre>&nbsp;&lt;3</pre>
           </AnimatedLink>
         </Caption>
         <Caption style={{fontSize:'11px', opacity:'0.80'}}>Diablo4.Tips is a fanmade site sharing content about Diablo 4, utilizing official game media solely for educational purposes, with no ownership or claim on the intellectual property</Caption>

@@ -7,6 +7,7 @@ import { breakpoints } from "./Constants";
 const MobileH1 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
+  color: var(--color-crimson);
   font-weight: normal;
   font-size: 32px;
   line-height: 40px;
@@ -16,6 +17,7 @@ const MobileH1 = css`
 const MobileH2 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
+  color: var(--color-crimson);
   font-weight: normal;
   font-size: 29px;
   line-height: 40px;
@@ -25,6 +27,7 @@ const MobileH3 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 26px;
   line-height: 32px;
   letter-spacing: 0.15px;
@@ -33,6 +36,7 @@ const MobileH4 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.25px;
@@ -41,6 +45,7 @@ const MobileH5 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.35px;
@@ -49,6 +54,7 @@ const MobileH6 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -60,6 +66,7 @@ const MobileBody = css`
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  color: white;
   letter-spacing: 0.5px;
 `;
 
@@ -77,6 +84,7 @@ const MobileOverline = css`
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
+  color: var(--color-crimson);
   line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -166,8 +174,7 @@ const DesktopOverline = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  color: var(--color-infernal-orange);
+  font-size: 12px;  
   line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
