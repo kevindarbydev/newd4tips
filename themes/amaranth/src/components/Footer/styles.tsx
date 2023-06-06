@@ -3,11 +3,15 @@ import styled from "styled-components";
 export const Wrapper = styled.footer`
   display: grid;
   gap: 40px;
-  justify-items: center;
+  justify-items: center;  
   align-items: center;
   padding: 32px 0px 16px;
   background-color: var(--color-black-dark);
   color: var(--color-grey-600);
+  @media (max-width:500px) {
+    max-width:400px;
+    margin:auto;
+  }
 `;
 
 export const LinkGrid = styled.section`

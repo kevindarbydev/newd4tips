@@ -27,14 +27,16 @@ export const NavGrid = styled.nav`
   grid-gap: 24px;
 
   align-items: flex-start;
+
+  @media (max-width:700px) {
+    display: none;
+  }
 `;
 
 export const SiteTitle = styled.p`
   ${styles.ButtonLabel}
 
-  @media (max-width: 500px) {
-    display: none;
-  }
+
 `;
 
 export const NavButton = styled(AnimatedLink)`

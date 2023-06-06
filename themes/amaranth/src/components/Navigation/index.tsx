@@ -22,8 +22,8 @@ const Navigation = (): JSX.Element => {
          <S.NavButton noBasePath to="/category/Druid">
           Druid
         </S.NavButton>
-         <S.NavButton noBasePath to="/">
-          Sorceror
+         <S.NavButton noBasePath to="/category/Sorcerer">
+          Sorcerer
         </S.NavButton>
          <S.NavButton noBasePath to="/category/Barbarian">
           Barbarian

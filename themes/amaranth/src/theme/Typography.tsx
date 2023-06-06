@@ -9,7 +9,7 @@ const MobileH1 = css`
   font-style: normal;
   color: var(--color-crimson);
   font-weight: normal;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 40px;
   letter-spacing: 0.25px;
 `;
@@ -101,7 +101,7 @@ const DesktopH1 = css`
   font-style: normal;
   font-weight: normal;
   color: var(--color-crimson);
-  font-size: 47px;
+  font-size: 44px;
   line-height: 56px;
 `;
 
