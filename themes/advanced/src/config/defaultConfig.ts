@@ -30,7 +30,7 @@ const config: SiteConfig = {
   contentDir: undefined, // Directory for MDX posts
   assetDir: undefined, // Asset directory
 
-  embeddedImageWidth: 768, // MDX embedded image width. Used by gatsby-plugin-image for optimization
+  embeddedImageWidth: 1024, // MDX embedded image width. Used by gatsby-plugin-image for optimization
   embeddedVideoWidth: 920, // MDX embedded video width in pixels
 
   iconPath: undefined, // Icon used for manifest icon creation.

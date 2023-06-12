@@ -11,8 +11,7 @@ const Navigation = (): JSX.Element => {
         <AdvancedLogo width={36} height={36} />
         <S.SiteTitle>D4 Tips</S.SiteTitle>
       </S.HomeButton>
-      <S.NavGrid>
-     
+      <S.NavGrid>     
         <S.NavButton noBasePath to="/category/Necromancer">
           Necromancer
         </S.NavButton>
@@ -27,11 +26,9 @@ const Navigation = (): JSX.Element => {
         </S.NavButton>
          <S.NavButton noBasePath to="/category/Barbarian">
           Barbarian
-        </S.NavButton>
-     
+        </S.NavButton>     
       </S.NavGrid>
-    </S.Wrapper>
-    
+    </S.Wrapper>    
   );
 };
 
