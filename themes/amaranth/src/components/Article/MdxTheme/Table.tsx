@@ -15,7 +15,7 @@ const TableStyled = styled.table`
 
   margin: 0 auto;
 
-  border-spacing: 2px;
+  border-spacing: 5px;
 `;
 
 type TableProps = {
