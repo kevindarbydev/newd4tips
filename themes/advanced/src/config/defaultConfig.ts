@@ -7,16 +7,15 @@ const config: SiteConfig = {
     titleShort: "D4 Tips", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
     name: "Diablo 4 Tips & Tricks", // Website name used for homescreen (PWA) and SEO
     description: "Conquer the battlefield in Diablo 4 with cutting edge tactics, only available at diablo4.tips",
-     // Website description used for RSS feeds/meta description tag
     language: "en", // Sets the global HTML lang attribute
     logoUrl: "/logos/logo-256.png", // Logo used for SEO
     url: "https://diablo4.tips", // Domain of your website without the pathPrefix
     rss: "/rss.xml", // Path to the RSS file
-    rssTitle: "Gatsby Advanced Starter RSS Feed", // Title of the RSS feed
+    rssTitle: "", // Title of the RSS feed
     googleAnalyticsId: "G-EN4T1N92FB", // GA tracking ID
     copyright: "© Copyright 2023", // Copyright string for the footer of the website and RSS feed.
-    themeColor: "#D83850", // Used for setting manifest and progress theme colors.
-    backgroundColor: "#F7F7F7", // Used for setting manifest background color.
+    themeColor: "#990000", // Used for setting manifest and progress theme colors.
+    backgroundColor: "#333333", // Used for setting manifest background color.
   },
 
   // Organization information used for SEO
