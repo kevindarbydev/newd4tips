@@ -6,3 +6,10 @@
   font-named-instance: 'Regular';
   src: url(/static/fonts/Inter-roman.var.woff2) format("woff2");
 }
+
+@font-face {
+  font-family: 'Alfa Slab One';
+  font-weight: 500;
+  font-style: normal;
+  src: url(/static/fonts/AlfaSlabOne-Regular.ttf) format("ttf");
+}

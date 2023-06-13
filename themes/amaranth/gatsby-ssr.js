@@ -6,6 +6,7 @@ import * as React from "react";
 // eslint-disable-next-line import/prefer-default-export
 export const onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
+    // Inter var
     // eslint-disable-next-line react/jsx-filename-extension
     <link
       rel="preload"
@@ -14,6 +15,15 @@ export const onRenderBody = ({ setHeadComponents }) => {
       type="font/woff2"
       crossOrigin="anonymous"
       key="interFont"
+    />,
+    // Alfa Slab One
+    <link
+      rel="preload"
+      href="static/fonts/AlfaSlabOne-Regular.ttf"
+      as="font"
+      type="ttf"
+      crossOrigin="anonymous"
+      key="alfaFont"
     />,
   ]);
 };

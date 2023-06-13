@@ -1,5 +1,4 @@
 import * as React from "react";
-import Helmet from "react-helmet";
 import { createGlobalStyle, css } from "styled-components";
 
 import { breakpoints } from "./Constants";
@@ -318,16 +317,8 @@ export const styles = {
   Code: CodeStyle,
 };
 
-const Typography = (): JSX.Element => (
-  <>
-    <Helmet>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:ital,wght@0,400;0,500;1,400&family=Fira+Code:wght@500&display=swap"
-        rel="stylesheet"
-      />
-    </Helmet>
-    <TypographyStyles />
-  </>
+const Typography = (): JSX.Element => (      
+    <TypographyStyles />  
 );
 
 export default Typography;
