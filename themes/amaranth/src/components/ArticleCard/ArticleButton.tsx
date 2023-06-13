@@ -23,6 +23,10 @@ const ReadButton = styled(GatsbyLink)`
   @media (max-width: ${constants.breakpoints.lg}) {
     display: none;
   }
+
+  &:hover {
+    color: var(--color-primary); 
+  }
 `;
 
 type ArticleButtonProps = { to: string };
