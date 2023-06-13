@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Inter var';
+  font-family: "Inter var";
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
-  font-named-instance: 'Regular';
+  font-named-instance: "Regular";
   src: url(/static/fonts/Inter-roman.var.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: 'Alfa Slab One';
-  font-weight: 500;
+  font-family: "Alfa Slab One";
+  font-weight: 400;
   font-style: normal;
   src: url(/static/fonts/AlfaSlabOne-Regular.ttf) format("ttf");
 }
