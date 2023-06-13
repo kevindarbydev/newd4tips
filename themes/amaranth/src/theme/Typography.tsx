@@ -5,55 +5,55 @@ import { createGlobalStyle, css } from "styled-components";
 import { breakpoints } from "./Constants";
 
 const MobileH1 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Inter var';
+  font-weight: 900;
   font-style: normal;
-  color: var(--color-crimson);
-  font-weight: normal;
+  color: var(--color-crimson);  
   font-size: 28px;
   line-height: 40px;
   letter-spacing: 0.25px;
 `;
 
 const MobileH2 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Inter var';
+  font-weight: 900;
   font-style: normal;
-  color: var(--color-crimson);
-  font-weight: normal;
+  color: var(--color-crimson); 
   font-size: 29px;
   line-height: 40px;
   letter-spacing: 0px;
 `;
 const MobileH3 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Inter var';
+  font-weight: 900;
   font-style: normal;
-  font-weight: normal;
   color: var(--color-crimson);
   font-size: 26px;
   line-height: 32px;
   letter-spacing: 0.15px;
 `;
 const MobileH4 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Inter var';
+  font-weight: 900;
   font-style: normal;
-  font-weight: normal;
   color: var(--color-crimson);
   font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.25px;
 `;
 const MobileH5 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Inter var';
+  font-weight: 900;
   font-style: normal;
-  font-weight: normal;
   color: var(--color-crimson);
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.35px;
 `;
-const MobileH6 = css`
-  font-family: "Alfa Slab One", serif;
-  font-style: normal;
-  font-weight: normal;
+const MobileH6 = css`  
+  font-family: 'Inter var';
+  font-weight: 900;
+  font-style: normal;  
   color: var(--color-crimson);
   font-size: 18px;
   line-height: 24px;
@@ -61,7 +61,7 @@ const MobileH6 = css`
 `;
 
 const MobileBody = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter var";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -80,7 +80,7 @@ const MobileCaption = css`
 `;
 
 const MobileOverline = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Inter var';  
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -97,64 +97,64 @@ const MobileCode = css`
 `;
 
 const DesktopH1 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: 'Inter var';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   color: var(--color-crimson);
   font-size: 44px;
   line-height: 56px;
 `;
 
 const DesktopH2 = css`
-  font-family: "Alfa Slab One", serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Inter var';
+  font-weight: 900;
+  font-style: normal;  
   color: var(--color-crimson);
   font-size: 39px;
   line-height: 48px;
 `;
 const DesktopH3 = css`
-  font-family: "Alfa Slab One", serif;
   font-style: normal;
-  font-weight: normal;
+  font-family: 'Inter var';
+  font-weight: 900;
   font-size: 33px;
   line-height: 40px;
   color: var(--color-crimson);
   letter-spacing: 0.15px;
 `;
 const DesktopH4 = css`
-  font-family: "Alfa Slab One", serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Inter var';
+  font-weight: 900;
+  font-style: normal;  
   font-size: 27px;
   line-height: 32px;
    color: var(--color-crimson);
   letter-spacing: 0.25px;
 `;
 const DesktopH5 = css`
-  font-family: "Alfa Slab One", serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Inter var';
+  font-weight: 900;
+  font-style: normal; 
   font-size: 23px;
-   color: var(--color-crimson);
+  color: var(--color-crimson);
   line-height: 32px;
   letter-spacing: 0.35px;
 `;
 const DesktopH6 = css`
-  font-family: "Alfa Slab One", serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Inter var';
+  font-weight: 900;
+  font-style: normal; 
   font-size: 19px;
-   color: var(--color-crimson);
+  color: var(--color-crimson);
   line-height: 24px;
   letter-spacing: 0.4px;
 `;
 
 const DesktopBody = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Inter var';
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.5px;
   color:white;

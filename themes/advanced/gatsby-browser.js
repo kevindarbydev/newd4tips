@@ -1,6 +1,6 @@
 import "prism-themes/themes/prism-dracula.css";
 import "prismjs/plugins/command-line/prism-command-line.css";
-
+import "./globals.css";
 import QueryWrapper from "./src/context/QueryWrapper";
 
 // eslint-disable-next-line import/prefer-default-export
