@@ -52,8 +52,9 @@ export const HeadCell = styled.th<CellProps>`
 
   margin-right: 4px;
   margin-left: 4px;
+  color: var(--color-crimson);
 
-  border-bottom: 2px solid var(--color-primary-100);
+  border-bottom: 2px solid var(--color-crimson);
 `;
 
 export const BodyCell = styled.td<CellProps>`
@@ -64,11 +65,10 @@ export const BodyCell = styled.td<CellProps>`
   padding-top: 8px;
   padding-bottom: 4px;
 
-  border-bottom: 1px solid var(--color-grey-300);
+  border-bottom: 1px solid var(--color-crimson);
 
-  :hover {
-    background-color: var(--color-grey-100);
-  }
+  white-space: pre-wrap;
+  word-wrap: break-word;
 `;
 
 export const Body = styled.tbody`
