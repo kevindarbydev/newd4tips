@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { breakpoints } from "../../theme/Constants";
 import { styles } from "../../theme";
 import { PrimaryLink, AnimatedLink } from "../Links";
 
@@ -28,8 +28,8 @@ export const NavGrid = styled.nav`
 
   align-items: flex-start;
 
-  @media (max-width:700px) {
-    display: none;
+ @media (max-width: ${breakpoints.m}) {
+    display:none;
   }
 `;
 

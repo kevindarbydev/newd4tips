@@ -73,16 +73,17 @@ const MobileCaption = css`
   font-family: "Alfa Slab One";
   font-style: normal;
   font-weight: normal;
+  color: var(--infernal-orange);
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.5px;
 `;
 
 const MobileOverline = css`
-  font-family: 'Inter var';  
+  font-family: "Fira Sans", sans-serif; 
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--color-crimson);
   line-height: 16px;
   letter-spacing: 1.5px;
@@ -90,48 +91,48 @@ const MobileOverline = css`
 `;
 
 const MobileCode = css`
-  font-family: "Alfa Slab One";
+  font-family: "Fira Code", monospace !important;
   font-size: 14px !important;
   line-height: 21px !important;
 `;
 
 const DesktopH1 = css`
-  font-family: 'Inter var';
+  font-family: "Alfa Slab One", serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   color: var(--color-crimson);
   font-size: 44px;
   line-height: 56px;
 `;
 
 const DesktopH2 = css`
-  font-family: 'Inter var';
-  font-weight: 900;
-  font-style: normal;  
+  font-family: "Alfa Slab One", serif;
+  font-style: normal;
+  font-weight: normal;
   color: var(--color-crimson);
   font-size: 39px;
   line-height: 48px;
 `;
-const DesktopH3 = css`
+const DesktopH3 = css`  
+  font-family: "Alfa Slab One", serif;
   font-style: normal;
-  font-family: 'Inter var';
-  font-weight: 900;
+  font-weight: normal;
   font-size: 33px;
   line-height: 40px;
   color: var(--color-crimson);
   letter-spacing: 0.15px;
 `;
 const DesktopH4 = css`
-  font-family: 'Inter var';
-  font-weight: 900;
-  font-style: normal;  
+  font-family: "Alfa Slab One", serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 27px;
   line-height: 32px;
    color: var(--color-crimson);
   letter-spacing: 0.25px;
 `;
 const DesktopH5 = css`
-  font-family: 'Inter var';
+  font-family: "Alfa Slab One", serif;
   font-weight: 900;
   font-style: normal; 
   font-size: 23px;
@@ -140,7 +141,7 @@ const DesktopH5 = css`
   letter-spacing: 0.35px;
 `;
 const DesktopH6 = css`
-  font-family: 'Inter var';
+  font-family: "Alfa Slab One", serif;
   font-weight: 900;
   font-style: normal; 
   font-size: 19px;
@@ -160,27 +161,28 @@ const DesktopBody = css`
 `;
 
 const DesktopCaption = css`
-  font-family: "Alfa Slab One";
+  font-family: "Fira Sans", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  var(--color-infernal-orange);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--color-crimson);
   line-height: 16px;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.4px;  
 `;
 
 const DesktopOverline = css`
-  font-family: "Alfa Slab One";
+  font-family: "Fira Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;  
+  font-weight: 600;
+  color: var(--color-crimson);
+  font-size: 14px;  
   line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 `;
 
 const DesktopCode = css`
-  font-family: "Alfa Slab One";
+  font-family: "Alfa Slab One", serif;
   font-size: 16px !important;
   line-height: 24px !important;
 `;
