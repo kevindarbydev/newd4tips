@@ -174,7 +174,7 @@ const DesktopOverline = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-crimson);
   line-height: 16px;
   letter-spacing: 1.5px;
@@ -183,6 +183,7 @@ const DesktopOverline = css`
 
 const DesktopCode = css`
   font-family: "Fira Code", monospace !important;
+  color: white;
   font-size: 16px !important;
   line-height: 24px !important;
 `;
