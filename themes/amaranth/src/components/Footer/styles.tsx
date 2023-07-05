@@ -6,8 +6,12 @@ export const Wrapper = styled.footer`
   justify-items: center;
   align-items: center;
   padding: 32px 0px 16px;
-  background-color: var(--color-grey-100);
-  color: var(--color-grey-700);
+  background-color: var(--color-black-dark);
+  color: var(--color-grey-600);
+  @media (max-width: 500px) {
+    max-width: 400px;
+    margin: auto;
+  }
 `;
 
 export const LinkGrid = styled.section`
@@ -25,7 +29,7 @@ export const Info = styled.div`
 
   /* Override link colors to improve color contrast */
   & a {
-    color: var(--color-primary-600);
+    color: var(--color-white);
 
     :hover {
       color: var(--color-primary-600);
