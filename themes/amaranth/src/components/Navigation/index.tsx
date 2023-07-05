@@ -1,24 +1,32 @@
 import React from "react";
 
-import { useConfig } from "gatsby-theme-advanced";
-
-import { AdvancedLogo } from "../../icons";
+import { RedDiabloLogo } from "../../icons";
 
 import * as S from "./style";
 
+// eslint-disable-next-line arrow-body-style
 const Navigation = (): JSX.Element => {
-  const config = useConfig();
-
   return (
     <S.Wrapper>
       <S.HomeButton to="/">
-        <AdvancedLogo width={36} height={36} />
-        <S.SiteTitle>{config.website.titleShort}</S.SiteTitle>
+        <RedDiabloLogo width={36} height={36} />
+        <S.SiteTitle>D4 Tips</S.SiteTitle>
       </S.HomeButton>
       <S.NavGrid>
-        <S.NavButton to="/">Posts</S.NavButton>
-        <S.NavButton noBasePath to="/about">
-          About
+        <S.NavButton noBasePath to="/category/Necromancer">
+          Necromancer
+        </S.NavButton>
+        <S.NavButton noBasePath to="/category/Rogue">
+          Rogue
+        </S.NavButton>
+        <S.NavButton noBasePath to="/category/Druid">
+          Druid
+        </S.NavButton>
+        <S.NavButton noBasePath to="/category/Sorcerer">
+          Sorcerer
+        </S.NavButton>
+        <S.NavButton noBasePath to="/category/Barbarian">
+          Barbarian
         </S.NavButton>
       </S.NavGrid>
     </S.Wrapper>

@@ -8,6 +8,7 @@ const MobileH1 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0.25px;
@@ -17,6 +18,7 @@ const MobileH2 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 29px;
   line-height: 40px;
   letter-spacing: 0px;
@@ -25,6 +27,7 @@ const MobileH3 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 26px;
   line-height: 32px;
   letter-spacing: 0.15px;
@@ -33,6 +36,7 @@ const MobileH4 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.25px;
@@ -41,6 +45,7 @@ const MobileH5 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.35px;
@@ -49,6 +54,7 @@ const MobileH6 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -58,6 +64,7 @@ const MobileBody = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
+  color:white;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -67,6 +74,7 @@ const MobileCaption = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
+  color: white;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.5px;
@@ -92,6 +100,7 @@ const DesktopH1 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 47px;
   line-height: 56px;
 `;
@@ -100,6 +109,7 @@ const DesktopH2 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 39px;
   line-height: 48px;
 `;
@@ -107,6 +117,7 @@ const DesktopH3 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 33px;
   line-height: 40px;
   letter-spacing: 0.15px;
@@ -115,6 +126,7 @@ const DesktopH4 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 27px;
   line-height: 32px;
   letter-spacing: 0.25px;
@@ -123,6 +135,7 @@ const DesktopH5 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.35px;
@@ -131,6 +144,7 @@ const DesktopH6 = css`
   font-family: "Alfa Slab One", serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-crimson);
   font-size: 19px;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -140,6 +154,7 @@ const DesktopBody = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
+  color:white;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -149,6 +164,7 @@ const DesktopCaption = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--color-red-primary);
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.4px;
@@ -159,6 +175,7 @@ const DesktopOverline = css`
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
+  color: var(--color-crimson);
   line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;

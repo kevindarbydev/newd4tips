@@ -19,6 +19,7 @@ const LayoutGrid = styled.div`
   grid-template-columns: 100%;
   gap: 80px;
   align-content: space-between;
+  background-color: var(--color-black-dark);
 
   @media (max-width: ${constants.breakpoints.sm}) {
     gap: 40px;

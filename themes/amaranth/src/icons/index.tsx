@@ -1,4 +1,3 @@
-import AdvancedLogo from "./logo.svg";
-
+import RedDiabloLogo from "./red-D.svg";
 // eslint-disable-next-line import/prefer-default-export
-export { AdvancedLogo };
+export { RedDiabloLogo };

@@ -22,9 +22,20 @@ const Colors = css`
     --color-grey-800: #2e2e2e;
     --color-grey-900: #1a1a1a;
 
+    --color-red-primary: #c41e3a;
+    --color-red-dark: #641128;
+    --color-red-light: #ff3355;
+
+    --color-black-dark: #1d1d1d;
+    --color-black-light: #333333;
+
+    --color-infernal-orange: #ff6f00;
+    --color-crimson: #990000;
+    --color-deepyellow: #ffcc00;
+
     --color-text: #000000;
-    --color-inverted-text: #ffffff;
-    --color-background: #ffffff;
+    --color-inverted-text: #000000;
+    --color-background: #333333;
     --color-inverted-background: #000000;
   }
 `;
