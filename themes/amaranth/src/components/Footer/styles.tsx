@@ -12,7 +12,17 @@ export const Wrapper = styled.footer`
     max-width: 450px;
     margin: auto;
   }
+`;
 
+export const MobileFooter = styled.div`
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-infernal-orange);
+  font-size: 14px;
+  line-height: 16px;
+  text-align:center;
+  letter-spacing: 0.4px;
 `;
 
 export const LinkGrid = styled.section`

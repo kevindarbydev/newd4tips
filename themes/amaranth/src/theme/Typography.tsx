@@ -91,6 +91,16 @@ const MobileOverline = css`
   text-transform: uppercase;
 `;
 
+const MobileFooter = css`
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-infernal-orange);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+`;
+
 const MobileCode = css`
   font-family: "Fira Code", monospace !important;
   font-size: 14px !important;
@@ -171,6 +181,16 @@ const DesktopCaption = css`
   letter-spacing: 0.4px;
 `;
 
+const DesktopFooter = css`
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-infernal-orange);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+`;
+
 const DesktopOverline = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
@@ -235,6 +255,13 @@ const BodyStyle = css`
   ${MobileBody}
   @media (min-width: ${breakpoints.sm}) {
     ${DesktopBody}
+  }
+`;
+
+const FooterStyle = css`
+  ${MobileFooter}
+  @media (min-width: ${breakpoints.sm}) {
+    ${DesktopFooter}
   }
 `;
 
@@ -316,6 +343,7 @@ export const styles = {
   H6: H6Style,
   Body: BodyStyle,
   Caption: CaptionStyle,
+  Footer: FooterStyle,
   Overline: OverlineStyle,
   ButtonLabel: ButtonLabelStyle,
   Code: CodeStyle,
