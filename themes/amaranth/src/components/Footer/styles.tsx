@@ -8,10 +8,11 @@ export const Wrapper = styled.footer`
   padding: 32px 0px 16px;
   background-color: var(--color-black-dark);
   color: var(--color-grey-600);
-  @media (max-width: 500px) {
-    max-width: 400px;
+  @media (max-width: 768px) {
+    max-width: 450px;
     margin: auto;
   }
+
 `;
 
 export const LinkGrid = styled.section`

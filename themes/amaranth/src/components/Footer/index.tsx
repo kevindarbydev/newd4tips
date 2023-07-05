@@ -12,12 +12,12 @@ const Footer = (): JSX.Element => (
       <UserLinks includeRss />
     </S.LinkGrid>
     <S.Info>
-      <Caption style={{ fontSize: "12px" }}>
+      <Caption style={{ fontSize: "12px", color: "#ff6f00", textAlign:'center' }}>
         Diablo4.Tips is a fanmade site sharing content about Diablo 4, utilizing
         official game media solely for educational purposes, with no ownership
         or claim on the intellectual property
       </Caption>
-      <Caption>
+      <Caption style={{ fontSize: "12px", color: "#ff6f00" }}>
         Made with{" "}
         <AnimatedLink to="https://github.com/kevindarbydev/Diablo4.Tips">
           {" "}

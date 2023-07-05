@@ -84,6 +84,7 @@ const MobileOverline = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
+  color: white;
   font-size: 10px;
   line-height: 16px;
   letter-spacing: 1.5px;
