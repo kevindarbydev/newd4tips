@@ -24,12 +24,12 @@ const config: SiteConfig = {
     firstName: "Kevin", // Used for SEO
     lastName: "D", // Used for SEO
     twitterName: "", // Twitter username used for SEO
-    linkedIn: "kevindarbydev", // Used for contact information
-    github: "kevindarbydev", // Used for contact information
-    email: "kevindarbydev@gmail.com", // Used for contact information and displayed in the RSS feed
+    linkedIn: "", // Used for contact information
+    github: "", // Used for contact information
+    email: "", // Used for contact information and displayed in the RSS feed
     location: "Canada", // User location used for SEO
-    about: "A full-stack web developer looking for a challenge!", // User information used for the author section
-    avatar: "https://i.pravatar.cc/300", // User avatar used for the author section
+    about: "", // User information used for the author section
+    avatar: "", // User avatar used for the author section
   },
 
   // Organization information used for SEO
