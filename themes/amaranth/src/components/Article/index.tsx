@@ -5,7 +5,6 @@ import { Types } from "gatsby-theme-advanced";
 
 import Intro from "./Intro";
 import Render from "./Render";
-import Share from "./Share";
 
 const Wrapper = styled.main`
   width: 100%;
@@ -22,8 +21,7 @@ type ArticleProps = {
 const Article = ({ post }: ArticleProps): JSX.Element => (
   <Wrapper>
     <Intro post={post} />
-    <Render post={post} />
-    <Share post={post} />
+    <Render post={post} />    
   </Wrapper>
 );
 
