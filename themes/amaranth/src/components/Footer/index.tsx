@@ -1,15 +1,10 @@
 import React from "react";
-import UserLinks from "../UserLinks";
 import { AnimatedLink } from "../Links";
 
 import * as S from "./styles";
 
 const Footer = (): JSX.Element => (
   <S.Wrapper>
-    <S.LinkGrid>
-      {/* <H3>LINKS</H3> */}
-      <UserLinks includeRss />
-    </S.LinkGrid>
     <S.Info>
       <S.MobileFooter>
         Diablo4.Tips is a fanmade site sharing content about Diablo 4, utilizing
