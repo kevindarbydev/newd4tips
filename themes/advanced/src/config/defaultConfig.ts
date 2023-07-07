@@ -10,8 +10,8 @@ const config: SiteConfig = {
     language: "en", // Sets the global HTML lang attribute
     logoUrl: "/logos/logo-256.png", // Logo used for SEO
     url: "https://diablo4.tips", // Domain of your website without the pathPrefix
-    rss: "/rss.xml", // Path to the RSS file
-    rssTitle: "myRSS", // Title of the RSS feed
+    rss: "", // Path to the RSS file
+    rssTitle: "", // Title of the RSS feed
     googleAnalyticsId: "G-EN4T1N92FB", // GA tracking ID
     copyright: "© Copyright 2023", // Copyright string for the footer of the website and RSS feed.
     themeColor: "#990000", // Used for setting manifest and progress theme colors.
