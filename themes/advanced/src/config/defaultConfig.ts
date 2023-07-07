@@ -18,19 +18,7 @@ const config: SiteConfig = {
     backgroundColor: "#333333", // Used for setting manifest background color.
   },
 
-   // User configuration
-  user: {
-    id: "kdd", // Unique identifier of the user on the website. Used for OpenGraph SEO tags
-    firstName: "Kevin", // Used for SEO
-    lastName: "D", // Used for SEO
-    twitterName: "", // Twitter username used for SEO
-    linkedIn: "", // Used for contact information
-    github: "", // Used for contact information
-    email: "", // Used for contact information and displayed in the RSS feed
-    location: "Canada", // User location used for SEO
-    about: "", // User information used for the author section
-    avatar: "", // User avatar used for the author section
-  },
+  user: undefined,
 
   // Organization information used for SEO
   organization: undefined,
