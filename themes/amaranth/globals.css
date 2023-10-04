@@ -1,31 +1,34 @@
 @font-face {
   font-family: "Inter var";
-  font-weight: 400;
+  font-weight: 100 900;
   font-display: swap;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url(./static/fonts/Inter-roman.var.woff2) format("woff2");
+  src: url(/fonts/Inter-roman.var.woff2) format("woff2");
 }
 
 @font-face {
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
   font-named-instance: "Regular";
-  src: url(./static/fonts/AlfaSlabOne-Regular.ttf) format("truetype");
+  src: url(/fonts/AlfaSlabOne-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
   font-named-instance: "Regular";
-  src: url(./static/fonts/FiraSans-Regular.ttf) format("truetype");
+  src: url(/fonts/FiraSans-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code";
   font-weight: 400;
   font-style: normal;
-  src: url(./static/fonts/FiraCode-VariableFont_wght.ttf) format("truetype");
+  font-display: swap;
+  src: url(/fonts/FiraCode-VariableFont_wght.ttf) format("truetype");
 }

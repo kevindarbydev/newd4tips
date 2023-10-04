@@ -10,7 +10,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     // eslint-disable-next-line react/jsx-filename-extension
     <link
       rel="preload"
-      href="/static/fonts/Inter-roman.var.woff2"
+      href="/fonts/Inter-roman.var.woff2"
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
@@ -19,7 +19,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     // Alfa Slab One
     <link
       rel="preload"
-      href="/static/fonts/AlfaSlabOne-Regular.ttf"
+      href="/fonts/AlfaSlabOne-Regular.ttf"
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
@@ -28,7 +28,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     // Fira Sans
     <link
       rel="preload"
-      href="/static/fonts/FiraSans-Regular.ttf"
+      href="/fonts/FiraSans-Regular.ttf"
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
@@ -37,7 +37,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     // Fira Code
     <link
       rel="preload"
-      href="/static/fonts/FiraCode-VariableFont_wght.ttf"
+      href="/fonts/FiraCode-VariableFont_wght.ttf"
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
