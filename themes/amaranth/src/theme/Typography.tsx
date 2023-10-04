@@ -80,13 +80,13 @@ const MobileCaption = css`
 `;
 
 const MobileOverline = css`
-  font-family: "Fira Sans", sans-serif; 
+  font-family: "Fira Sans", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   color: var(--color-crimson);
   line-height: 16px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.1px;
   text-transform: uppercase;
 `;
 

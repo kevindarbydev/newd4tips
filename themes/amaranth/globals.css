@@ -4,7 +4,7 @@
   font-display: swap;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url(/static/fonts/Inter-roman.var.woff2) format("woff2");
+  src: url(./static/fonts/Inter-roman.var.woff2) format("woff2");
 }
 
 @font-face {
@@ -12,7 +12,7 @@
   font-weight: 400;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url(/static/fonts/AlfaSlabOne-Regular.ttf) format("truetype");
+  src: url(./static/fonts/AlfaSlabOne-Regular.ttf) format("truetype");
 }
 
 @font-face {
@@ -20,12 +20,12 @@
   font-weight: 500;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url(/static/fonts/FiraSans-Regular.ttf) format("truetype");
+  src: url(./static/fonts/FiraSans-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Fira Code";
   font-weight: 400;
   font-style: normal;
-  src: url(/static/fonts/FiraCode-VariableFont_wght.ttf) format("truetype");
+  src: url(./static/fonts/FiraCode-VariableFont_wght.ttf) format("truetype");
 }

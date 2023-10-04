@@ -1,7 +1,6 @@
 import React from "react";
 import UserLinks from "../UserLinks";
 import { Caption } from "../../theme";
-import { AnimatedLink } from "../Links";
 
 import * as S from "./styles";
 

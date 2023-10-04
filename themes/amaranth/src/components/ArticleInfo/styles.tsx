@@ -7,7 +7,7 @@ export const TagLink = styled(PrimaryLink)`
   ${styles.Overline}
 
   text-transform: uppercase;
-
+  color: var(--color-red-light);
   &::before {
     content: "#";
   }
@@ -15,7 +15,8 @@ export const TagLink = styled(PrimaryLink)`
 
 export const CategoryLink = styled(PrimaryLink)`
   ${styles.Caption}
-
+  color: var(--color-red-light);
+  font-weight:500;
   text-transform: capitalize;
 `;
 
