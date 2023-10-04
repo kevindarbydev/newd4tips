@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: "Diablo 4 Tips",
-    siteUrl: "https://diablo4.tips",    
+    siteUrl: "https://diablo4.tips",
     description: "Tips & Tricks to Excel in Diablo 4",
   },
   plugins: [
     "gatsby-plugin-image",
-    "gatsby-plugin-sitemap",   
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-manifest",
@@ -23,6 +23,13 @@ module.exports = {
       options: {
         name: "images",
         path: `${__dirname}/static/images`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem", 
+      options: {
+        name: "fonts",
+        path: `${__dirname}/static/fonts`, 
       },
     },
   ],

@@ -74,7 +74,7 @@ const MobileCaption = css`
   font-style: normal;
   font-weight: normal;
   color: var(--infernal-orange);
-  font-size: 12px;
+  font-size: 13px;
   line-height: 16px;
   letter-spacing: 0.5px;
 `;
@@ -97,27 +97,27 @@ const MobileCode = css`
 `;
 
 const DesktopH1 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "Inter var";
   font-style: normal;
   font-weight: 600;
   color: var(--color-crimson);
-  font-size: 44px;
+  font-size: 40px;
   line-height: 56px;
 `;
 
 const DesktopH2 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "Inter var";
   font-style: normal;
   font-weight: normal;
   color: var(--color-crimson);
   font-size: 39px;
   line-height: 48px;
 `;
-const DesktopH3 = css`  
-  font-family: "Alfa Slab One", serif;
+const DesktopH3 = css`
+  font-family: "Inter var";
   font-style: normal;
   font-weight: normal;
-  font-size: 33px;
+  font-size: 30px;
   line-height: 40px;
   color: var(--color-crimson);
   letter-spacing: 0.15px;

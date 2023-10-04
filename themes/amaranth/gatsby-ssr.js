@@ -32,7 +32,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
-      key="alfaFont"
+      key="firaSans"
     />,
     // Fira Code
     <link
@@ -41,7 +41,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
-      key="alfaFont"
+      key="firaCode"
     />,
   ]);
 };
