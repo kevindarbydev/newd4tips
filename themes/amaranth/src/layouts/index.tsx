@@ -30,21 +30,18 @@ type MainLayoutProps = {
 
 const MainLayout = ({ children }: MainLayoutProps): JSX.Element => (
   <ThemeProvider>
-        <Helmet        
-          >
-            <title>Diablo 4 Tips & Tricks</title>             
-            </Helmet>
-          
-    
-      <LayoutGrid>
-        <LayoutWidthContainer>
-          <Navigation />
-         
-        </LayoutWidthContainer>
+    <Helmet>
+      <title>Diablo 4 Tips & Tricks</title>
+    </Helmet>
+
+    <LayoutGrid>
+      <LayoutWidthContainer>
+        <Navigation />
+      </LayoutWidthContainer>
 
       {children}
-        <Footer />
-      </LayoutGrid>   
+      <Footer />
+    </LayoutGrid>
   </ThemeProvider>
 );
 
