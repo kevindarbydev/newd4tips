@@ -8,6 +8,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-webpack-bundle-analyser-v2",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
