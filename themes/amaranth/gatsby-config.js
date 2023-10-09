@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Diablo 4 Tips",
     siteUrl: "https://diablo4.tips",
-    description: "Tips & Tricks to Excel in Diablo 4",
+    description: "Tips & Tricks to excel in Diablo 4",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -15,22 +15,21 @@ module.exports = {
         icon: `${__dirname}/src/icons/redDJPEG.jpeg`,
       },
     },
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        enableIdentityWidget: false,
+      },
+    },
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-theme-advanced",
-    },
+    },    
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",
-        path: `${__dirname}/static/images`,
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem", 
-      options: {
         name: "fonts",
-        path: `${__dirname}/static/fonts`, 
+        path: `${__dirname}\\static\\fonts`,
       },
     },
   ],
