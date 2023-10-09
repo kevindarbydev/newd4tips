@@ -6,7 +6,7 @@ const GeneralTags = (
   seoData: SeoData,
   websiteData: WebsiteData
 ): React.ReactElement[] => {
-  const { title, description, imageUrl } = seoData;
+  const { title, imageUrl } = seoData;
   const { logoUrl } = websiteData;
 
   const tags = [
@@ -14,8 +14,13 @@ const GeneralTags = (
     <link rel="shortcut icon" href={logoUrl} key="gen-fav" />,
   ];
 
-  if (description)
-    tags.push(<meta name="description" content={description} key="gen-desc" />);
+  tags.push(
+    <meta
+      name="description"
+      content="Tips & Tricks to excel in Diablo 4"
+      key="gen-desc"
+    />
+  );
 
   if (imageUrl)
     tags.push(<meta name="image" content={imageUrl} key="gen-image" />);
