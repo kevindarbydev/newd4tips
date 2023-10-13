@@ -4,8 +4,7 @@ import { AdvancedLogo } from "../../icons";
 
 import * as S from "./style";
 
-const Navigation = (): JSX.Element => {
-  return (
+const Navigation = (): JSX.Element => (
     <S.Wrapper>
       <S.HomeButton to="/">
         <AdvancedLogo width={36} height={36} />
@@ -30,6 +29,5 @@ const Navigation = (): JSX.Element => {
       </S.NavGrid>
     </S.Wrapper>    
   );
-};
 
 export default Navigation;
