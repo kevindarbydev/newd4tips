@@ -1,16 +1,17 @@
 import styled from "styled-components";
+import { breakpoints } from "../../theme/Constants";
 
 export const Wrapper = styled.footer`
   display: grid;
   gap: 40px;
-  justify-items: center;  
+  justify-items: center;
   align-items: center;
   padding: 32px 0px 16px;
   background-color: var(--color-black-dark);
   color: var(--color-grey-600);
-  @media (max-width:500px) {
-    max-width:400px;
-    margin:auto;
+  @media (max-width: 500px) {
+    max-width: 400px;
+    margin: auto;
   }
 `;
 
@@ -34,5 +35,11 @@ export const Info = styled.div`
     :hover {
       color: var(--color-primary-600);
     }
+  }
+`;
+
+export const ShouldDisplay = styled.div`
+  @media (max-width: ${breakpoints.lg}) {
+    display: none;
   }
 `;

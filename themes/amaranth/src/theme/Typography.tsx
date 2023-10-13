@@ -7,53 +7,53 @@ const MobileH1 = css`
   font-family: 'Inter var';
   font-weight: 900;
   font-style: normal;
-  color: var(--color-crimson);  
+  color: var(--color-neon-red);  
   font-size: 28px;
   line-height: 40px;
   letter-spacing: 0.25px;
 `;
 
 const MobileH2 = css`
-  font-family: 'Inter var';
+  font-family: "Inter var";
   font-weight: 900;
   font-style: normal;
-  color: var(--color-crimson); 
+  color: var(--color-neon-red);
   font-size: 29px;
   line-height: 40px;
   letter-spacing: 0px;
 `;
 const MobileH3 = css`
-  font-family: 'Inter var';
+  font-family: "Inter var";
   font-weight: 900;
   font-style: normal;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   font-size: 26px;
   line-height: 32px;
   letter-spacing: 0.15px;
 `;
 const MobileH4 = css`
-  font-family: 'Inter var';
+  font-family: "Inter var";
   font-weight: 900;
   font-style: normal;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.25px;
 `;
 const MobileH5 = css`
-  font-family: 'Inter var';
+  font-family: "Inter var";
   font-weight: 900;
   font-style: normal;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.35px;
 `;
-const MobileH6 = css`  
-  font-family: 'Inter var';
+const MobileH6 = css`
+  font-family: "Inter var";
   font-weight: 900;
-  font-style: normal;  
-  color: var(--color-crimson);
+  font-style: normal;
+  color: var(--color-neon-red);
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -73,7 +73,7 @@ const MobileCaption = css`
   font-family: "Alfa Slab One";
   font-style: normal;
   font-weight: normal;
-  color: var(--infernal-orange);
+  color: var(--color-neon-red);
   font-size: 13px;
   line-height: 16px;
   letter-spacing: 0.5px;
@@ -84,7 +84,7 @@ const MobileOverline = css`
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   line-height: 16px;
   letter-spacing: 1.1px;
   text-transform: uppercase;
@@ -100,7 +100,7 @@ const DesktopH1 = css`
   font-family: "Inter var";
   font-style: normal;
   font-weight: 600;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   font-size: 40px;
   line-height: 56px;
 `;
@@ -109,7 +109,7 @@ const DesktopH2 = css`
   font-family: "Inter var";
   font-style: normal;
   font-weight: normal;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   font-size: 39px;
   line-height: 48px;
 `;
@@ -119,7 +119,7 @@ const DesktopH3 = css`
   font-weight: normal;
   font-size: 30px;
   line-height: 40px;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   letter-spacing: 0.15px;
 `;
 const DesktopH4 = css`
@@ -128,24 +128,24 @@ const DesktopH4 = css`
   font-weight: normal;
   font-size: 27px;
   line-height: 32px;
-   color: var(--color-crimson);
+  color: var(--color-neon-red);
   letter-spacing: 0.25px;
 `;
 const DesktopH5 = css`
   font-family: "Alfa Slab One", serif;
   font-weight: 900;
-  font-style: normal; 
+  font-style: normal;
   font-size: 23px;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   line-height: 32px;
   letter-spacing: 0.35px;
 `;
 const DesktopH6 = css`
   font-family: "Alfa Slab One", serif;
   font-weight: 900;
-  font-style: normal; 
+  font-style: normal;
   font-size: 19px;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   line-height: 24px;
   letter-spacing: 0.4px;
 `;
@@ -165,17 +165,17 @@ const DesktopCaption = css`
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: var(--color-crimson);
+  color: var(--color-neon-red);
   line-height: 16px;
-  letter-spacing: 0.4px;  
+  letter-spacing: 0.4px;
 `;
 
 const DesktopOverline = css`
   font-family: "Fira Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  color: var(--color-crimson);
-  font-size: 14px;  
+  color: var(--color-neon-red);
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
